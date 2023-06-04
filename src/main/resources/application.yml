@@ -14,8 +14,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/login?serverTimezone=Asia/Seoul
-    username: root
-    password: Password1!
+    username:
+    password:
 
   jpa:
     open-in-view: true
@@ -36,15 +36,15 @@ spring:
       client:
         registration:
           google: # /oauth2/authorization/google ? ??? ???? ??.
-            client-id: 121756192932-itpsne13n2h8lblpi4nvlg2oohjuv76c.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 
+            client-secret: 
             scope:
               - email
               - profile
 
           naver:
-            client-id: sPQJui3yFzHLYr2SPECE
-            client-secret: DtqhKc0n_r
+            client-id: 
+            client-secret: 
             scope:
               - name
               - email
